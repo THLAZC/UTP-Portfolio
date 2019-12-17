@@ -1,0 +1,103 @@
+/* CSS Files for UTP class */
+
+/* font-family: 'Quicksand', sans-serif; 
+font-family: 'Righteous', cursive */
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #282828
+}
+
+.navigation-container {
+    height: 50px;
+    background-color: #282828;
+}
+
+.navigation-container h4 {
+    display: inline;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    line-height: 3em;
+}
+
+.navigation-container a {
+    margin: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px;
+    transition: 1s;
+    line-height: 3em;
+}
+
+.navigation-container a:hover {
+    background-color: black;
+}
+
+#nav {
+    float: right;
+}
+
+#landing {
+    background-image: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: Palatino;
+    height: 100vh;
+}
+#landing h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: #282828
+}
+#landing h3 {
+    font-size: 40px;
+    color: #282828;
+}
+
+#work {
+    height:400px;
+}
+
+#about {
+    background-image: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}    
+
+.sub-container {
+    width: 32.5%;
+    float: left;
+    text-align: center;
+}
+
+.sub-container a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    transition: 1s;
+}
+
+.sub-container a:hover {
+    background-color:black;
+    font-size: 20px;
+    border-radius: 0%;
+    padding: 10px;
+}
